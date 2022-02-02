@@ -60,7 +60,7 @@ public class StatsService {
     public int findAdoveAverageMonth(int[] sales) {
 
 
-        int amountMonth = 0; // количество месяцев в которых продажи были ниже среднего
+        int amountMonth = 0; // количество месяцев в которых продажи были выше среднего
         int average = calculateAverage(sales);
 
         for (int i = 0; i < sales.length; i++) {
